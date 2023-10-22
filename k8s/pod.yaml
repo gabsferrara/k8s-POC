@@ -1,0 +1,12 @@
+#N usa
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "goserver"
+  labels:
+    app: "goserver"
+spec:
+  containers:
+    - name: "goserver"
+      image: "gabsferrara/hello-go:latest"
